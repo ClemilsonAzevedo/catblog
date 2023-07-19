@@ -92,6 +92,9 @@ header .hero {
 main{
   overflow-y: scroll;
   width: 100%;
+  display: grid;
+  gap: 3.2rem;
+  max-width: 38.4rem;
 }
 
 main > img{
@@ -102,20 +105,60 @@ main > img{
 main .principal-content{
   display: flex;
   flex-direction: column;
-  margin: 3.0rem 2.4rem;
+  padding: 0 2.3rem;
   gap: 3.2rem;
   
 }
-
-
 .principal-content h1{
   font: var(--title);
+  color: var(--title-color);
 }
 
+.principal-content p{
+  color: var(--text-color);
+  font-size: 1.6rem;
+}
+
+.other-content{
+  padding: 0 2.3rem;
+}
+
+.other-content h2{
+  font: var(--title);
+  color: var(--title-color);
+}
+
+.card{
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 3.2rem;
+  overflow: hidden;
+}
+
+.card img{
+  object-fit: contain;
+  width: 100%;
+}
+
+.card figcaption{
+  display: grid;
+  gap: 1.5rem;
+}
+
+figcaption h2{
+  font: var(--title);
+  color: var(--title-color);
+}
+
+figcaption p{
+  color: var(--text-color);
+  font-size: 1.4rem;
+}
 
 footer p {
   text-align: center;
   padding: 2.5rem 1.6rem;
+  margin-top: 1.0rem;
   background-color: var(--base-blue-medium);
   font-size: 1.6rem;
   font-weight: 600;
