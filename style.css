@@ -35,7 +35,7 @@ header {
   background-color: var(--base-blue-bold);
   padding: 1.6rem 2.8rem;
   display: grid;
-  grid-template-columns: 4.0rem 1fr 4.2rem;
+  grid-template-columns: 4rem 1fr 4.2rem;
   place-items: center;
   gap: 2.5rem;
 }
@@ -89,76 +89,74 @@ header .hero {
   height: 4.2rem;
 }
 
-main{
+main {
   overflow-y: scroll;
-  width: 100%;
-  display: grid;
-  gap: 3.2rem;
-  max-width: 38.4rem;
+  overflow-x: hidden;
 }
 
-main > img{
+main > img {
   width: 100%;
   object-fit: cover;
 }
 
-main .principal-content{
-  display: flex;
-  flex-direction: column;
-  padding: 0 2.3rem;
-  gap: 3.2rem;
-  
-}
-.principal-content h1{
-  font: var(--title);
-  color: var(--title-color);
+main .principal-content {
+  margin: 3.3rem 2.4rem;
 }
 
-.principal-content p{
-  color: var(--text-color);
+.principal-content .feedback {
+  display: grid;
+  gap: 0.8rem;
+  margin-bottom: 3rem;
+}
+
+.feedback .gap-12 {
+  display: grid;
+  grid-template-columns: repeat(2, 5.2rem);
+}
+
+main .principal-content p {
   font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: var(--text-color);
 }
 
-.other-content{
-  padding: 0 2.3rem;
+main .aside {
+  display: grid;
+  gap: 3.2rem;
+  margin: 0 2.3rem 1rem;
 }
 
-.other-content h2{
+.aside > h2 {
   font: var(--title);
   color: var(--title-color);
 }
 
-.card{
+.aside .card {
   display: flex;
   gap: 1.6rem;
-  margin-top: 3.2rem;
-  overflow: hidden;
 }
 
-.card img{
-  object-fit: contain;
-  width: 100%;
+.card img {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  filter: grayscale(0.5);
 }
 
-.card figcaption{
-  display: grid;
-  gap: 1.5rem;
-}
-
-figcaption h2{
-  font: var(--title);
+.card figcaption h3 {
+  font: var(--subtitle);
   color: var(--title-color);
 }
 
-figcaption p{
-  color: var(--text-color);
+.card figcaption p {
+  font-weight: 400;
   font-size: 1.4rem;
+  line-height: 2.2rem;
 }
 
 footer p {
   text-align: center;
   padding: 2.5rem 1.6rem;
-  margin-top: 1.0rem;
   background-color: var(--base-blue-medium);
   font-size: 1.6rem;
   font-weight: 600;
