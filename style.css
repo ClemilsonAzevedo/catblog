@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Mulish", sans-serif;
+}
+
+:root{
+  font-size: 62.5%;
+
+  --color-base-white: #FFF;
+  --title-color:#202024;
+  --text-color:#121214;
+  --base-blue-medium: #387E96;
+  --base-blue-bold: #065E7C;
+
+  --title-size: 700 2.4rem/3.0rem "Mulish", sans-serif;
+  --subtitle: 700 1.8rem/2.8rem "Mulish", sans-serif;
+}
+
+header{
+
+}
+
+footer{
+  
+}
