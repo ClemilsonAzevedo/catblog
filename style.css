@@ -10,11 +10,11 @@
 :root {
   font-size: 62.5%;
 
-  --color-base-white: #fff;
-  --title-color: #202024;
-  --text-color: #121214;
-  --base-blue-medium: #387e96;
-  --base-blue-bold: #065e7c;
+  --color-base-white: hsl(0, 0%, 100%);
+  --title-color: hsl(240, 6%, 13%);
+  --text-color: hsl(240, 5%, 7%);
+  --base-blue-medium: hsl(195, 46%, 40%);
+  --base-blue-bold: hsl(195, 91%, 25%);
 
   --title: 700 2.4rem/3rem "Mulish", sans-serif;
   --subtitle: 700 1.8rem/2.8rem "Mulish", sans-serif;
