@@ -16,12 +16,13 @@
   --base-blue-medium: #387e96;
   --base-blue-bold: #065e7c;
 
-  --title-size: 700 2.4rem/3rem "Mulish", sans-serif;
+  --title: 700 2.4rem/3rem "Mulish", sans-serif;
   --subtitle: 700 1.8rem/2.8rem "Mulish", sans-serif;
 }
 
 body {
   color: var(--text-color);
+  width: 100vw;
 }
 
 .page {
@@ -34,7 +35,7 @@ header {
   background-color: var(--base-blue-bold);
   padding: 1.6rem 2.8rem;
   display: grid;
-  grid-template-columns: 40px 1fr 42px;
+  grid-template-columns: 4.0rem 1fr 4.2rem;
   place-items: center;
   gap: 2.5rem;
 }
@@ -87,6 +88,30 @@ header .hero {
   width: 4.2rem;
   height: 4.2rem;
 }
+
+main{
+  overflow-y: scroll;
+  width: 100%;
+}
+
+main > img{
+  width: 100%;
+  object-fit: cover;
+}
+
+main .principal-content{
+  display: flex;
+  flex-direction: column;
+  margin: 3.0rem 2.4rem;
+  gap: 3.2rem;
+  
+}
+
+
+.principal-content h1{
+  font: var(--title);
+}
+
 
 footer p {
   text-align: center;
