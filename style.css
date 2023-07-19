@@ -97,6 +97,7 @@ main {
 main > img {
   width: 100%;
   object-fit: cover;
+  border-radius: .5rem;
 }
 
 main .principal-content {
@@ -161,4 +162,36 @@ footer p {
   font-size: 1.6rem;
   font-weight: 600;
   color: var(--color-base-white);
+}
+
+@media (min-width: 1024px) {
+  main{
+    padding: 4.0rem 10.9rem 4.0rem;
+    display: grid;
+    grid-template-areas: 
+    "image aside"
+    "principal-content aside";
+    grid-template-columns: 1fr 43.0rem;
+  }
+
+  main > img{
+    grid-area: image;
+  }
+
+  main .principal-content{
+    grid-area: principal-content;
+  }
+
+  .principal-content .feedback{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  main .aside{
+    grid-area: aside;
+    max-width: 38.4rem;
+  }
+
+  
 }
