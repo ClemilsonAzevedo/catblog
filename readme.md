@@ -1,15 +1,15 @@
 <h1 align="center"> CATBLOG </h1>
 
 <p align="center">
-Projecto exclusivo, para o aprendizado de algumas tecnologias WEB. <br/>
+Exclusive Project for learning Web Development. <br/>
 
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Projects">Projects</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#memo-License">License</a>
 </p>
 
 <p align="center">
@@ -19,29 +19,39 @@ Projecto exclusivo, para o aprendizado de algumas tecnologias WEB. <br/>
 <br>
 
 <p align="center">
-  <img alt="projeto Galaxies" src=".github\Cover.png" width="100%">
+  <img alt="Cat Blog" src=".github\Cover.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+In this Projects the following technologies were used:
 
-- HTML e CSS
-- Git e Github
-- Figma
 
-## 💻 Projeto
+<div style="display: grid">
 
-O CatBlog é um blog que aborda sobre gatos.
+  <img style="border-radius: 8px" align="center" alt="html5 " src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> 
+  <img style="border-radius: 8px" align="center" alt="CSS3 " src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img style="border-radius: 8px" align="center" alt="Javascript " src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+
+  <img style="border-radius: 8px" align="center" alt="Javascript " src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+  
+  - Figma
+
+<div/>
+
+## 💻 Projects
+
+Carblog is a website for a blog that talks about cats.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](<[[https://www.figma.com/file/lYsJUCgK5aLVMLaBOIrVLI/Galaxies-%E2%80%A2-Projeto-Explorer-(Community)?type=design&node-id=0%3A1&mode=design&t=mu406SO2AP1bWwms-1](https://www.figma.com/file/AS5JyLhctEldZbwvhjWVR4/Blog-de-Gatos-%E2%80%A2-Desafio-Explorer-(Community)?type=design&node-id=358%3A220&mode=dev)](https://www.figma.com/file/AS5JyLhctEldZbwvhjWVR4/Blog-de-Gatos-%E2%80%A2-Desafio-Explorer-(Community)?type=design&node-id=358%3A220&mode=dev)>). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+You can view the project layout at [THIS LINK](<[[https://www.figma.com/file/lYsJUCgK5aLVMLaBOIrVLI/Galaxies-%E2%80%A2-Projeto-Explorer-(Community)?type=design&node-id=0%3A1&mode=design&t=mu406SO2AP1bWwms-1](https://www.figma.com/file/AS5JyLhctEldZbwvhjWVR4/Blog-de-Gatos-%E2%80%A2-Desafio-Explorer-(Community)?type=design&node-id=358%3A220&mode=dev)](https://www.figma.com/file/AS5JyLhctEldZbwvhjWVR4/Blog-de-Gatos-%E2%80%A2-Desafio-Explorer-(Community)?type=design&node-id=358%3A220&mode=dev)>). An account is required at [Figma](https://figma.com) to access it.
 
-## :memo: Licença
+## :memo: License
 
-Esse projeto está sob a licença MIT.
+The project is under license from MIT.
 
 ---
 
-Feito por Clemilson Azevedo aluno da [Rockeatseat](https://www.rocketseat.com.br/).
+Project made by Clemilson Azevedo, Student at [Rockeatseat](https://www.rocketseat.com.br/).
+
